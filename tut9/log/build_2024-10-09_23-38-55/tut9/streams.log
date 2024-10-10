@@ -1,0 +1,131 @@
+[0.019s] Invoking command in '/home/rhys/ros2_ws/src/tut9/build/tut9': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world:/home/rhys/ros2_ws/install/turtlebot3_teleop:/home/rhys/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rhys/ros2_ws/src/tut9 -DCMAKE_INSTALL_PREFIX=/home/rhys/ros2_ws/src/tut9/install/tut9
+[0.096s] -- The C compiler identification is GNU 11.4.0
+[0.169s] -- The CXX compiler identification is GNU 11.4.0
+[0.179s] -- Detecting C compiler ABI info
+[0.276s] -- Detecting C compiler ABI info - done
+[0.285s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.285s] -- Detecting C compile features
+[0.286s] -- Detecting C compile features - done
+[0.290s] -- Detecting CXX compiler ABI info
+[0.400s] -- Detecting CXX compiler ABI info - done
+[0.408s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.408s] -- Detecting CXX compile features
+[0.409s] -- Detecting CXX compile features - done
+[0.416s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.613s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.781s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.873s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.885s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.905s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.927s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.957s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.045s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.052s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.208s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.251s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.316s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.338s] -- Looking for pthread.h
+[1.441s] -- Looking for pthread.h - found
+[1.442s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.547s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.549s] -- Found Threads: TRUE  
+[1.629s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.677s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.700s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[1.773s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.799s] -- Found OpenCV: /usr (found version "4.5.4") 
+[1.805s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[1.816s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.852s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.853s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.853s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.987s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[2.001s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.024s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.211s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.211s] -- Configured cppcheck include dirs: /home/rhys/ros2_ws/src/tut9/include
+[2.211s] -- Configured cppcheck exclude dirs and/or files: 
+[2.219s] -- Added test 'lint_cmake' to check CMake code style
+[2.236s] -- Added test 'uncrustify' to check C / C++ code style
+[2.236s] -- Configured uncrustify additional arguments: 
+[2.239s] -- Added test 'xmllint' to check XML markup files
+[2.241s] -- Configuring done
+[2.272s] -- Generating done
+[2.275s] -- Build files have been written to: /home/rhys/ros2_ws/src/tut9/build/tut9
+[2.291s] Invoked command in '/home/rhys/ros2_ws/src/tut9/build/tut9' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world:/home/rhys/ros2_ws/install/turtlebot3_teleop:/home/rhys/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/rhys/ros2_ws/src/tut9 -DCMAKE_INSTALL_PREFIX=/home/rhys/ros2_ws/src/tut9/install/tut9
+[2.293s] Invoking command in '/home/rhys/ros2_ws/src/tut9/build/tut9': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world:/home/rhys/ros2_ws/install/turtlebot3_teleop:/home/rhys/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ros2_ws/src/tut9/build/tut9 -- -j16 -l16
+[2.372s] [ 25%] [32mBuilding CXX object CMakeFiles/lastTask.dir/src/lastTask.cpp.o[0m
+[2.372s] [ 50%] [32mBuilding CXX object CMakeFiles/imageOverlay.dir/src/imageOverlay.cpp.o[0m
+[5.345s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:40:53:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KCylinder::[m[K’ on member ‘[01m[KcountSegments[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[5.345s]    40 | std::vector<std::vector<geometry_msgs::msg::Point>> [01;31m[KCylinder[m[K::countSegments(const sensor_msgs::msg::LaserScan::SharedPtr scan)
+[5.346s]       |                                                     [01;31m[K^~~~~~~~[m[K
+[5.346s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:141:27:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KCylinder::[m[K’ on member ‘[01m[KfindCentre[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[5.346s]   141 | geometry_msgs::msg::Point [01;31m[KCylinder[m[K::findCentre(geometry_msgs::msg::Point P1, geometry_msgs::msg::Point P2, double r)
+[5.346s]       |                           [01;31m[K^~~~~~~~[m[K
+[5.346s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:213:33:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KCylinder::[m[K’ on member ‘[01m[KproduceMarkerCylinder[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[5.346s]   213 | visualization_msgs::msg::Marker [01;31m[KCylinder[m[K::produceMarkerCylinder(geometry_msgs::msg::Point pt)
+[5.346s]       |                                 [01;31m[K^~~~~~~~[m[K
+[5.346s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:235:27:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KCylinder::[m[K’ on member ‘[01m[KlocalToGlobal[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[5.346s]   235 | geometry_msgs::msg::Point [01;31m[KCylinder[m[K::localToGlobal(const nav_msgs::msg::Odometry &global, const geometry_msgs::msg::Point &local)
+[5.346s]       |                           [01;31m[K^~~~~~~~[m[K
+[5.353s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In constructor ‘[01m[KCylinder::Cylinder()[m[K’:
+[5.353s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_sub_[m[K’ was not declared in this scope
+[5.353s]    20 |     [01;31m[Kscan_sub_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+[5.353s]       |     [01;31m[K^~~~~~~~~[m[K
+[5.407s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_sub_[m[K’ was not declared in this scope
+[5.408s]    22 |     [01;31m[Kodom_sub_[m[K = this->create_subscription<nav_msgs::msg::Odometry>(
+[5.408s]       |     [01;31m[K^~~~~~~~~[m[K
+[5.460s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[5.460s]    24 |     [01;31m[Kmarker_pub_[m[K = this->create_publisher<visualization_msgs::msg::Marker>(
+[5.460s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.477s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kvoid Cylinder::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.477s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[KcurrentOdom[m[K’ was not declared in this scope
+[5.477s]    37 |     [01;31m[KcurrentOdom[m[K = *odom;
+[5.478s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.487s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kstd::vector<std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > > > Cylinder::countSegments(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.487s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:75:56:[m[K [01;31m[Kerror: [m[K‘[01m[KcurrentOdom[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent[m[K’?
+[5.487s]    75 |                 currentSegment.push_back(localToGlobal([01;31m[KcurrentOdom[m[K, current));
+[5.487s]       |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[5.487s]       |                                                        [32m[Kcurrent[m[K
+[5.494s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kvoid Cylinder::detectCylinder(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&)[m[K’:
+[5.495s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:129:43:[m[K [01;31m[Kerror: [m[K‘[01m[KfirstCent[m[K’ was not declared in this scope
+[5.495s]   129 |             if (!checkExisting(centre) || [01;31m[KfirstCent[m[K)
+[5.495s]       |                                           [01;31m[K^~~~~~~~~[m[K
+[5.500s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:132:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcentres[m[K’ was not declared in this scope; did you mean ‘[01m[Kcentre[m[K’?
+[5.500s]   132 |                 [01;31m[Kcentres[m[K.push_back(centre);
+[5.500s]       |                 [01;31m[K^~~~~~~[m[K
+[5.500s]       |                 [32m[Kcentre[m[K
+[5.507s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:135:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[5.507s]   135 |                 [01;31m[Kmarker_pub_[m[K->publish(marker);
+[5.507s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[5.515s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kgeometry_msgs::msg::Point Cylinder::findCentre(geometry_msgs::msg::Point, geometry_msgs::msg::Point, double)[m[K’:
+[5.516s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:154:23:[m[K [01;31m[Kerror: [m[K‘[01m[KcurrentOdom[m[K’ was not declared in this scope
+[5.516s]   154 |     double d2 = sqrt(([01;31m[KcurrentOdom[m[K.pose.pose.position.x - c1x) * (currentOdom.pose.pose.position.x - c1x) + (currentOdom.pose.pose.position.y - c1y) * (currentOdom.pose.pose.position.y - c1y));
+[5.516s]       |                       [01;31m[K^~~~~~~~~~~[m[K
+[5.521s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kbool Cylinder::checkExisting(geometry_msgs::msg::Point)[m[K’:
+[5.521s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:177:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kcentres[m[K’ was not declared in this scope; did you mean ‘[01m[Kcentre[m[K’?
+[5.521s]   177 |     for (const auto &existing_centre : [01;31m[Kcentres[m[K)
+[5.521s]       |                                        [01;31m[K^~~~~~~[m[K
+[5.521s]       |                                        [32m[Kcentre[m[K
+[5.526s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kvoid Cylinder::visualizeSegment(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&)[m[K’:
+[5.527s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:196:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kct_[m[K’ was not declared in this scope
+[5.527s]   196 |     line_marker.id = [01;31m[Kct_[m[K++;
+[5.527s]       |                      [01;31m[K^~~[m[K
+[5.536s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:210:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[5.536s]   210 |     [01;31m[Kmarker_pub_[m[K->publish(line_marker);
+[5.536s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.541s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kvisualization_msgs::msg::Marker Cylinder::produceMarkerCylinder(geometry_msgs::msg::Point)[m[K’:
+[5.541s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:219:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kct_[m[K’ was not declared in this scope
+[5.541s]   219 |     marker.id = [01;31m[Kct_[m[K++;
+[5.541s]       |                 [01;31m[K^~~[m[K
+[5.866s] [01m[K/home/rhys/ros2_ws/src/tut9/src/imageOverlay.cpp:73:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[5.867s]    73 | }
+[5.867s]       |  [01;31m[K^[m[K
+[5.867s]       |  [32m[K;[m[K
+[6.767s] gmake[2]: *** [CMakeFiles/imageOverlay.dir/build.make:76: CMakeFiles/imageOverlay.dir/src/imageOverlay.cpp.o] Error 1
+[6.768s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/imageOverlay.dir/all] Error 2
+[6.768s] gmake[1]: *** Waiting for unfinished jobs....
+[8.962s] gmake[2]: *** [CMakeFiles/lastTask.dir/build.make:76: CMakeFiles/lastTask.dir/src/lastTask.cpp.o] Error 1
+[8.962s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/lastTask.dir/all] Error 2
+[8.963s] gmake: *** [Makefile:146: all] Error 2
+[8.965s] Invoked command in '/home/rhys/ros2_ws/src/tut9/build/tut9' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world:/home/rhys/ros2_ws/install/turtlebot3_teleop:/home/rhys/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ros2_ws/src/tut9/build/tut9 -- -j16 -l16

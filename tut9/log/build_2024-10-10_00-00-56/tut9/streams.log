@@ -1,0 +1,28 @@
+[0.018s] Invoking command in '/home/rhys/ros2_ws/src/tut9/build/tut9': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world:/home/rhys/ros2_ws/install/turtlebot3_teleop:/home/rhys/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ros2_ws/src/tut9/build/tut9 -- -j16 -l16
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target lastTask[0m
+[0.106s] [ 25%] [32mBuilding CXX object CMakeFiles/imageOverlay.dir/src/imageOverlay.cpp.o[0m
+[0.118s] [ 75%] Built target lastTask
+[4.793s] [100%] [32m[1mLinking CXX executable imageOverlay[0m
+[5.364s] [100%] Built target imageOverlay
+[5.382s] Invoked command in '/home/rhys/ros2_ws/src/tut9/build/tut9' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world:/home/rhys/ros2_ws/install/turtlebot3_teleop:/home/rhys/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ros2_ws/src/tut9/build/tut9 -- -j16 -l16
+[5.442s] Invoking command in '/home/rhys/ros2_ws/src/tut9/build/tut9': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world:/home/rhys/ros2_ws/install/turtlebot3_teleop:/home/rhys/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rhys/ros2_ws/src/tut9/build/tut9
+[5.452s] -- Install configuration: ""
+[5.452s] -- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/lib/tut9/imageOverlay
+[5.453s] -- Set runtime path of "/home/rhys/ros2_ws/src/tut9/install/tut9/lib/tut9/imageOverlay" to ""
+[5.453s] -- Up-to-date: /home/rhys/ros2_ws/src/tut9/install/tut9/lib/tut9/lastTask
+[5.453s] -- Up-to-date: /home/rhys/ros2_ws/src/tut9/install/tut9/share/ament_index/resource_index/package_run_dependencies/tut9
+[5.454s] -- Up-to-date: /home/rhys/ros2_ws/src/tut9/install/tut9/share/ament_index/resource_index/parent_prefix_path/tut9
+[5.454s] -- Up-to-date: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/environment/ament_prefix_path.sh
+[5.454s] -- Up-to-date: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/environment/ament_prefix_path.dsv
+[5.454s] -- Up-to-date: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/environment/path.sh
+[5.454s] -- Up-to-date: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/environment/path.dsv
+[5.454s] -- Up-to-date: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/local_setup.bash
+[5.454s] -- Up-to-date: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/local_setup.sh
+[5.454s] -- Up-to-date: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/local_setup.zsh
+[5.454s] -- Up-to-date: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/local_setup.dsv
+[5.454s] -- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/package.dsv
+[5.454s] -- Up-to-date: /home/rhys/ros2_ws/src/tut9/install/tut9/share/ament_index/resource_index/packages/tut9
+[5.454s] -- Up-to-date: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/cmake/tut9Config.cmake
+[5.454s] -- Up-to-date: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/cmake/tut9Config-version.cmake
+[5.454s] -- Up-to-date: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/package.xml
+[5.457s] Invoked command in '/home/rhys/ros2_ws/src/tut9/build/tut9' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world:/home/rhys/ros2_ws/install/turtlebot3_teleop:/home/rhys/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/rhys/ros2_ws/src/tut9/build/tut9

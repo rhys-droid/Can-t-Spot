@@ -1,0 +1,58 @@
+[0.019s] Invoking command in '/home/rhys/ros2_ws/src/tut9/build/tut9': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world:/home/rhys/ros2_ws/install/turtlebot3_teleop:/home/rhys/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ros2_ws/src/tut9/build/tut9 -- -j16 -l16
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target lastTask[0m
+[0.103s] [ 50%] Built target imageOverlay
+[0.112s] [ 75%] [32mBuilding CXX object CMakeFiles/lastTask.dir/src/lastTask.cpp.o[0m
+[3.259s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In constructor ‘[01m[KCylinder::Cylinder()[m[K’:
+[3.259s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_sub_[m[K’ was not declared in this scope
+[3.259s]    20 |     [01;31m[Kscan_sub_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+[3.259s]       |     [01;31m[K^~~~~~~~~[m[K
+[3.315s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_sub_[m[K’ was not declared in this scope
+[3.315s]    22 |     [01;31m[Kodom_sub_[m[K = this->create_subscription<nav_msgs::msg::Odometry>(
+[3.315s]       |     [01;31m[K^~~~~~~~~[m[K
+[3.368s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[3.369s]    24 |     [01;31m[Kmarker_pub_[m[K = this->create_publisher<visualization_msgs::msg::Marker>(
+[3.369s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.386s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kvoid Cylinder::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.386s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[KcurrentOdom[m[K’ was not declared in this scope
+[3.386s]    37 |     [01;31m[KcurrentOdom[m[K = *odom;
+[3.386s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.397s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kstd::vector<std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > > > Cylinder::countSegments(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.397s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:75:56:[m[K [01;31m[Kerror: [m[K‘[01m[KcurrentOdom[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent[m[K’?
+[3.397s]    75 |                 currentSegment.push_back(localToGlobal([01;31m[KcurrentOdom[m[K, current));
+[3.397s]       |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[3.397s]       |                                                        [32m[Kcurrent[m[K
+[3.406s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kvoid Cylinder::detectCylinder(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&)[m[K’:
+[3.406s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:129:43:[m[K [01;31m[Kerror: [m[K‘[01m[KfirstCent[m[K’ was not declared in this scope
+[3.406s]   129 |             if (!checkExisting(centre) || [01;31m[KfirstCent[m[K)
+[3.406s]       |                                           [01;31m[K^~~~~~~~~[m[K
+[3.412s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:132:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcentres[m[K’ was not declared in this scope; did you mean ‘[01m[Kcentre[m[K’?
+[3.412s]   132 |                 [01;31m[Kcentres[m[K.push_back(centre);
+[3.412s]       |                 [01;31m[K^~~~~~~[m[K
+[3.412s]       |                 [32m[Kcentre[m[K
+[3.419s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:135:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[3.420s]   135 |                 [01;31m[Kmarker_pub_[m[K->publish(marker);
+[3.420s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[3.430s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kgeometry_msgs::msg::Point Cylinder::findCentre(geometry_msgs::msg::Point, geometry_msgs::msg::Point, double)[m[K’:
+[3.430s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:154:23:[m[K [01;31m[Kerror: [m[K‘[01m[KcurrentOdom[m[K’ was not declared in this scope
+[3.430s]   154 |     double d2 = sqrt(([01;31m[KcurrentOdom[m[K.pose.pose.position.x - c1x) * (currentOdom.pose.pose.position.x - c1x) + (currentOdom.pose.pose.position.y - c1y) * (currentOdom.pose.pose.position.y - c1y));
+[3.430s]       |                       [01;31m[K^~~~~~~~~~~[m[K
+[3.436s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kbool Cylinder::checkExisting(geometry_msgs::msg::Point)[m[K’:
+[3.436s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:177:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kcentres[m[K’ was not declared in this scope; did you mean ‘[01m[Kcentre[m[K’?
+[3.437s]   177 |     for (const auto &existing_centre : [01;31m[Kcentres[m[K)
+[3.437s]       |                                        [01;31m[K^~~~~~~[m[K
+[3.437s]       |                                        [32m[Kcentre[m[K
+[3.443s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kvoid Cylinder::visualizeSegment(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&)[m[K’:
+[3.443s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:196:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kct_[m[K’ was not declared in this scope
+[3.443s]   196 |     line_marker.id = [01;31m[Kct_[m[K++;
+[3.443s]       |                      [01;31m[K^~~[m[K
+[3.452s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:210:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[3.452s]   210 |     [01;31m[Kmarker_pub_[m[K->publish(line_marker);
+[3.452s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.457s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kvisualization_msgs::msg::Marker Cylinder::produceMarkerCylinder(geometry_msgs::msg::Point)[m[K’:
+[3.457s] [01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:219:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kct_[m[K’ was not declared in this scope
+[3.458s]   219 |     marker.id = [01;31m[Kct_[m[K++;
+[3.458s]       |                 [01;31m[K^~~[m[K
+[7.158s] gmake[2]: *** [CMakeFiles/lastTask.dir/build.make:76: CMakeFiles/lastTask.dir/src/lastTask.cpp.o] Error 1
+[7.158s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/lastTask.dir/all] Error 2
+[7.159s] gmake: *** [Makefile:146: all] Error 2
+[7.162s] Invoked command in '/home/rhys/ros2_ws/src/tut9/build/tut9' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world:/home/rhys/ros2_ws/install/turtlebot3_teleop:/home/rhys/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/rhys/ros2_ws/src/tut9/build/tut9 -- -j16 -l16

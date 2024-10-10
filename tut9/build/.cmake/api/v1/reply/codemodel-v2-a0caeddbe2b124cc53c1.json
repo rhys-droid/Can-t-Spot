@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b78fc75ca661c2741c8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tut9",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "imageOverlay::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imageOverlay-Debug-44bc0345d6decc09363e.json",
+					"name" : "imageOverlay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lastTask::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lastTask-Debug-cb030f03a1aad4f343b1.json",
+					"name" : "lastTask",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tut9_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tut9_uninstall-Debug-b4d0ae246c09ef9aeecf.json",
+					"name" : "tut9_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-02ee5cf5e02b645a89ee.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rhys/ros2_ws/src/tut9/build",
+		"source" : "/home/rhys/ros2_ws/src/tut9"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

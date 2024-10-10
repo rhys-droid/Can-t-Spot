@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target imageOverlay[0m
+[35m[1mConsolidate compiler generated dependencies of target lastTask[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/imageOverlay.dir/src/imageOverlay.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lastTask.dir/src/lastTask.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable imageOverlay[0m
+[ 75%] Built target imageOverlay

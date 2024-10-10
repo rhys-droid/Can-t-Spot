@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/rhys/ros2_ws/install/turtlesim/include/**",
+        "/home/rhys/ros2_ws/install/turtlebot3_fake_node/include/**",
+        "/home/rhys/ros2_ws/install/turtlebot3_msgs/include/**",
+        "/home/rhys/ros2_ws/install/turtlebot3_gazebo/include/**",
+        "/home/rhys/ros2_ws/install/robot_localization/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/rhys/ros2_ws/src/cpp_pubsub/include/**",
+        "/home/rhys/ros2_ws/src/gazebo_TrafficLight_ROS2/traffic_light_gazebo/include/**",
+        "/home/rhys/ros2_ws/src/image_overlay_package/include/**",
+        "/home/rhys/ros2_ws/src/my_opencv_demo/include/**",
+        "/home/rhys/ros2_ws/src/robot_localization/include/**",
+        "/home/rhys/ros2_ws/src/ros_tutorials/turtlesim/include/**",
+        "/home/rhys/ros2_ws/src/tut9/include/**",
+        "/home/rhys/ros2_ws/src/tut_6/include/**",
+        "/home/rhys/ros2_ws/turtlebot3/turtlebot3_node/include/**",
+        "/home/rhys/ros2_ws/turtlebot3_simulations/turtlebot3_fake_node/include/**",
+        "/home/rhys/ros2_ws/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target lastTask[0m
+[ 50%] Built target imageOverlay
+[ 75%] [32mBuilding CXX object CMakeFiles/lastTask.dir/src/lastTask.cpp.o[0m
+[100%] [32m[1mLinking CXX executable lastTask[0m
+[100%] Built target lastTask
+-- Install configuration: ""
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/lib/tut9/imageOverlay
+-- Set runtime path of "/home/rhys/ros2_ws/src/tut9/install/tut9/lib/tut9/imageOverlay" to ""
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/lib/tut9/lastTask
+-- Set runtime path of "/home/rhys/ros2_ws/src/tut9/install/tut9/lib/tut9/lastTask" to ""
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/share/ament_index/resource_index/package_run_dependencies/tut9
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/share/ament_index/resource_index/parent_prefix_path/tut9
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/environment/ament_prefix_path.sh
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/environment/ament_prefix_path.dsv
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/environment/path.sh
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/environment/path.dsv
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/local_setup.bash
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/local_setup.sh
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/local_setup.zsh
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/local_setup.dsv
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/package.dsv
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/share/ament_index/resource_index/packages/tut9
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/cmake/tut9Config.cmake
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/cmake/tut9Config-version.cmake
+-- Installing: /home/rhys/ros2_ws/src/tut9/install/tut9/share/tut9/package.xml

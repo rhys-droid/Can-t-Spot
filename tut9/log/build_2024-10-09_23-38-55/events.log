@@ -1,0 +1,228 @@
+[0.000000] (-) TimerEvent: {}
+[0.000209] (tut9) JobQueued: {'identifier': 'tut9', 'dependencies': OrderedDict()}
+[0.000287] (tut9) JobStarted: {'identifier': 'tut9'}
+[0.016639] (tut9) JobProgress: {'identifier': 'tut9', 'progress': 'cmake'}
+[0.016942] (tut9) Command: {'cmd': ['/usr/bin/cmake', '/home/rhys/ros2_ws/src/tut9', '-DCMAKE_INSTALL_PREFIX=/home/rhys/ros2_ws/src/tut9/install/tut9'], 'cwd': '/home/rhys/ros2_ws/src/tut9/build/tut9', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'rhys'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rhys/ros2_ws/install/turtlesim/lib:/home/rhys/ros2_ws/install/turtlebot3_msgs/lib:/home/rhys/ros2_ws/install/traffic_light_gazebo/lib:/home/rhys/ros2_ws/install/robot_localization/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/rhys'), ('OLDPWD', '/home/rhys/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1513'), ('SYSTEMD_EXEC_PID', '1778'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7841'), ('COLCON_PREFIX_PATH', '/home/rhys/ros2_ws/install:/home/rhys/install:/home/rhys/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rhys'), ('JOURNAL_STREAM', '8:14281'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rhys'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/home/rhys/ros2_ws/src/gazebo_models_world:/home/rhys/ros2_ws/src/car_junction'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/rhys/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/bin'), ('SESSION_MANAGER', 'local/rhys-laptop:@/tmp/.ICE-unix/1751,unix/rhys-laptop:/tmp/.ICE-unix/1751'), ('INVOCATION_ID', '5a747cbc043d4c47b341c66fec8eaa78'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world:/home/rhys/ros2_ws/install/tut_6:/home/rhys/ros2_ws/install/turtlesim:/home/rhys/ros2_ws/install/turtlebot3:/home/rhys/ros2_ws/install/turtlebot3_teleop:/home/rhys/ros2_ws/install/turtlebot3_simulations:/home/rhys/ros2_ws/install/turtlebot3_bringup:/home/rhys/ros2_ws/install/turtlebot3_node:/home/rhys/ros2_ws/install/turtlebot3_navigation2:/home/rhys/ros2_ws/install/turtlebot3_fake_node:/home/rhys/ros2_ws/install/turtlebot3_example:/home/rhys/ros2_ws/install/turtlebot3_msgs:/home/rhys/ros2_ws/install/turtlebot3_gazebo:/home/rhys/ros2_ws/install/turtlebot3_description:/home/rhys/ros2_ws/install/turtlebot3_cartographer:/home/rhys/ros2_ws/install/traffic_light_urdf:/home/rhys/ros2_ws/install/traffic_light_gazebo:/home/rhys/ros2_ws/install/robot_localization:/home/rhys/ros2_ws/install/my_opencv_demo:/home/rhys/ros2_ws/install/image_overlay_package:/home/rhys/ros2_ws/install/cpp_pubsub:/home/rhys/ros2_ws/install/car_junction:/home/rhys/install/tut_6:/home/rhys/install/car_junction:/home/rhys/ros2_ws/src/install/image_overlay:/home/rhys/ros2_ws/src/install/cpp_pubsub:/home/rhys/ros2_ws/src/install/car_junction:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:837ea969-95de-4f32-9b61-f08419f9e1e1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rhys/ros2_ws/src/tut9/build/tut9'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/rhys/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world/lib/python3.10/site-packages:/home/rhys/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/rhys/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/rhys/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/rhys/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/rhys/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rhys/ros2_ws/install/tut_6:/home/rhys/ros2_ws/install/turtlesim:/home/rhys/ros2_ws/install/turtlebot3:/home/rhys/ros2_ws/install/turtlebot3_simulations:/home/rhys/ros2_ws/install/turtlebot3_bringup:/home/rhys/ros2_ws/install/turtlebot3_node:/home/rhys/ros2_ws/install/turtlebot3_navigation2:/home/rhys/ros2_ws/install/turtlebot3_fake_node:/home/rhys/ros2_ws/install/turtlebot3_msgs:/home/rhys/ros2_ws/install/turtlebot3_gazebo:/home/rhys/ros2_ws/install/turtlebot3_description:/home/rhys/ros2_ws/install/turtlebot3_cartographer:/home/rhys/ros2_ws/install/traffic_light_urdf:/home/rhys/ros2_ws/install/traffic_light_gazebo:/home/rhys/ros2_ws/install/robot_localization:/home/rhys/ros2_ws/install/my_opencv_demo:/home/rhys/ros2_ws/install/image_overlay_package:/home/rhys/ros2_ws/install/cpp_pubsub:/home/rhys/ros2_ws/install/car_junction:/home/rhys/install/tut_6:/home/rhys/install/car_junction:/home/rhys/ros2_ws/src/install/traffic_light_urdf:/home/rhys/ros2_ws/src/install/image_overlay:/home/rhys/ros2_ws/src/install/cpp_pubsub:/home/rhys/ros2_ws/src/install/car_junction:/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world:/home/rhys/ros2_ws/install/turtlebot3_teleop:/home/rhys/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.095963] (tut9) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099039] (-) TimerEvent: {}
+[0.168895] (tut9) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.179093] (tut9) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199171] (-) TimerEvent: {}
+[0.275924] (tut9) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.285189] (tut9) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.285448] (tut9) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.286044] (tut9) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.290242] (tut9) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299296] (-) TimerEvent: {}
+[0.399626] (-) TimerEvent: {}
+[0.399952] (tut9) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.408265] (tut9) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.408539] (tut9) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.409032] (tut9) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.415849] (tut9) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499781] (-) TimerEvent: {}
+[0.600121] (-) TimerEvent: {}
+[0.612655] (tut9) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700246] (-) TimerEvent: {}
+[0.781349] (tut9) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.800360] (-) TimerEvent: {}
+[0.872626] (tut9) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.885516] (tut9) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.900481] (-) TimerEvent: {}
+[0.904947] (tut9) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.927361] (tut9) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.957522] (tut9) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.000605] (-) TimerEvent: {}
+[1.044723] (tut9) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.052442] (tut9) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.100749] (-) TimerEvent: {}
+[1.201079] (-) TimerEvent: {}
+[1.208519] (tut9) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.250911] (tut9) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.301190] (-) TimerEvent: {}
+[1.316423] (tut9) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.338468] (tut9) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.401293] (-) TimerEvent: {}
+[1.441373] (tut9) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.442171] (tut9) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.501442] (-) TimerEvent: {}
+[1.547552] (tut9) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.548805] (tut9) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.601542] (-) TimerEvent: {}
+[1.629351] (tut9) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.676845] (tut9) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.700471] (tut9) StdoutLine: {'line': b'-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.701639] (-) TimerEvent: {}
+[1.772821] (tut9) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.798986] (tut9) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.801726] (-) TimerEvent: {}
+[1.805228] (tut9) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.815940] (tut9) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.851878] (tut9) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.853281] (tut9) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.853509] (tut9) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.901860] (-) TimerEvent: {}
+[1.986756] (tut9) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.000805] (tut9) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.001928] (-) TimerEvent: {}
+[2.024595] (tut9) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.102044] (-) TimerEvent: {}
+[2.202380] (-) TimerEvent: {}
+[2.210757] (tut9) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.211415] (tut9) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/rhys/ros2_ws/src/tut9/include\n'}
+[2.211549] (tut9) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.218835] (tut9) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.236031] (tut9) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.236261] (tut9) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.238761] (tut9) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.241373] (tut9) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.272602] (tut9) StdoutLine: {'line': b'-- Generating done\n'}
+[2.275055] (tut9) StdoutLine: {'line': b'-- Build files have been written to: /home/rhys/ros2_ws/src/tut9/build/tut9\n'}
+[2.291051] (tut9) CommandEnded: {'returncode': 0}
+[2.291931] (tut9) JobProgress: {'identifier': 'tut9', 'progress': 'build'}
+[2.292542] (tut9) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rhys/ros2_ws/src/tut9/build/tut9', '--', '-j16', '-l16'], 'cwd': '/home/rhys/ros2_ws/src/tut9/build/tut9', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'rhys'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rhys/ros2_ws/install/turtlesim/lib:/home/rhys/ros2_ws/install/turtlebot3_msgs/lib:/home/rhys/ros2_ws/install/traffic_light_gazebo/lib:/home/rhys/ros2_ws/install/robot_localization/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/rhys'), ('OLDPWD', '/home/rhys/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1513'), ('SYSTEMD_EXEC_PID', '1778'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7841'), ('COLCON_PREFIX_PATH', '/home/rhys/ros2_ws/install:/home/rhys/install:/home/rhys/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rhys'), ('JOURNAL_STREAM', '8:14281'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rhys'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/home/rhys/ros2_ws/src/gazebo_models_world:/home/rhys/ros2_ws/src/car_junction'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/rhys/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/bin'), ('SESSION_MANAGER', 'local/rhys-laptop:@/tmp/.ICE-unix/1751,unix/rhys-laptop:/tmp/.ICE-unix/1751'), ('INVOCATION_ID', '5a747cbc043d4c47b341c66fec8eaa78'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world:/home/rhys/ros2_ws/install/tut_6:/home/rhys/ros2_ws/install/turtlesim:/home/rhys/ros2_ws/install/turtlebot3:/home/rhys/ros2_ws/install/turtlebot3_teleop:/home/rhys/ros2_ws/install/turtlebot3_simulations:/home/rhys/ros2_ws/install/turtlebot3_bringup:/home/rhys/ros2_ws/install/turtlebot3_node:/home/rhys/ros2_ws/install/turtlebot3_navigation2:/home/rhys/ros2_ws/install/turtlebot3_fake_node:/home/rhys/ros2_ws/install/turtlebot3_example:/home/rhys/ros2_ws/install/turtlebot3_msgs:/home/rhys/ros2_ws/install/turtlebot3_gazebo:/home/rhys/ros2_ws/install/turtlebot3_description:/home/rhys/ros2_ws/install/turtlebot3_cartographer:/home/rhys/ros2_ws/install/traffic_light_urdf:/home/rhys/ros2_ws/install/traffic_light_gazebo:/home/rhys/ros2_ws/install/robot_localization:/home/rhys/ros2_ws/install/my_opencv_demo:/home/rhys/ros2_ws/install/image_overlay_package:/home/rhys/ros2_ws/install/cpp_pubsub:/home/rhys/ros2_ws/install/car_junction:/home/rhys/install/tut_6:/home/rhys/install/car_junction:/home/rhys/ros2_ws/src/install/image_overlay:/home/rhys/ros2_ws/src/install/cpp_pubsub:/home/rhys/ros2_ws/src/install/car_junction:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:837ea969-95de-4f32-9b61-f08419f9e1e1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rhys/ros2_ws/src/tut9/build/tut9'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/rhys/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world/lib/python3.10/site-packages:/home/rhys/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/rhys/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/rhys/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/rhys/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/rhys/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rhys/ros2_ws/install/tut_6:/home/rhys/ros2_ws/install/turtlesim:/home/rhys/ros2_ws/install/turtlebot3:/home/rhys/ros2_ws/install/turtlebot3_simulations:/home/rhys/ros2_ws/install/turtlebot3_bringup:/home/rhys/ros2_ws/install/turtlebot3_node:/home/rhys/ros2_ws/install/turtlebot3_navigation2:/home/rhys/ros2_ws/install/turtlebot3_fake_node:/home/rhys/ros2_ws/install/turtlebot3_msgs:/home/rhys/ros2_ws/install/turtlebot3_gazebo:/home/rhys/ros2_ws/install/turtlebot3_description:/home/rhys/ros2_ws/install/turtlebot3_cartographer:/home/rhys/ros2_ws/install/traffic_light_urdf:/home/rhys/ros2_ws/install/traffic_light_gazebo:/home/rhys/ros2_ws/install/robot_localization:/home/rhys/ros2_ws/install/my_opencv_demo:/home/rhys/ros2_ws/install/image_overlay_package:/home/rhys/ros2_ws/install/cpp_pubsub:/home/rhys/ros2_ws/install/car_junction:/home/rhys/install/tut_6:/home/rhys/install/car_junction:/home/rhys/ros2_ws/src/install/traffic_light_urdf:/home/rhys/ros2_ws/src/install/image_overlay:/home/rhys/ros2_ws/src/install/cpp_pubsub:/home/rhys/ros2_ws/src/install/car_junction:/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world:/home/rhys/ros2_ws/install/turtlebot3_teleop:/home/rhys/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[2.302498] (-) TimerEvent: {}
+[2.371944] (tut9) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/lastTask.dir/src/lastTask.cpp.o\x1b[0m\n'}
+[2.372213] (tut9) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/imageOverlay.dir/src/imageOverlay.cpp.o\x1b[0m\n'}
+[2.402638] (-) TimerEvent: {}
+[2.503020] (-) TimerEvent: {}
+[2.603354] (-) TimerEvent: {}
+[2.703801] (-) TimerEvent: {}
+[2.804316] (-) TimerEvent: {}
+[2.904699] (-) TimerEvent: {}
+[3.005088] (-) TimerEvent: {}
+[3.105536] (-) TimerEvent: {}
+[3.206062] (-) TimerEvent: {}
+[3.306437] (-) TimerEvent: {}
+[3.406835] (-) TimerEvent: {}
+[3.507255] (-) TimerEvent: {}
+[3.607687] (-) TimerEvent: {}
+[3.708276] (-) TimerEvent: {}
+[3.808756] (-) TimerEvent: {}
+[3.909192] (-) TimerEvent: {}
+[4.009597] (-) TimerEvent: {}
+[4.109989] (-) TimerEvent: {}
+[4.210382] (-) TimerEvent: {}
+[4.310850] (-) TimerEvent: {}
+[4.411284] (-) TimerEvent: {}
+[4.511627] (-) TimerEvent: {}
+[4.612073] (-) TimerEvent: {}
+[4.712483] (-) TimerEvent: {}
+[4.812925] (-) TimerEvent: {}
+[4.913364] (-) TimerEvent: {}
+[5.013702] (-) TimerEvent: {}
+[5.114046] (-) TimerEvent: {}
+[5.214408] (-) TimerEvent: {}
+[5.314821] (-) TimerEvent: {}
+[5.345383] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:40:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KCylinder::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KcountSegments\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.345637] (tut9) StderrLine: {'line': b'   40 | std::vector<std::vector<geometry_msgs::msg::Point>> \x1b[01;31m\x1b[KCylinder\x1b[m\x1b[K::countSegments(const sensor_msgs::msg::LaserScan::SharedPtr scan)\n'}
+[5.345789] (tut9) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.345880] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:141:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KCylinder::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KfindCentre\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.345980] (tut9) StderrLine: {'line': b'  141 | geometry_msgs::msg::Point \x1b[01;31m\x1b[KCylinder\x1b[m\x1b[K::findCentre(geometry_msgs::msg::Point P1, geometry_msgs::msg::Point P2, double r)\n'}
+[5.346069] (tut9) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.346156] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:213:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KCylinder::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KproduceMarkerCylinder\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.346241] (tut9) StderrLine: {'line': b'  213 | visualization_msgs::msg::Marker \x1b[01;31m\x1b[KCylinder\x1b[m\x1b[K::produceMarkerCylinder(geometry_msgs::msg::Point pt)\n'}
+[5.346326] (tut9) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.346402] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:235:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KCylinder::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KlocalToGlobal\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.346493] (tut9) StderrLine: {'line': b'  235 | geometry_msgs::msg::Point \x1b[01;31m\x1b[KCylinder\x1b[m\x1b[K::localToGlobal(const nav_msgs::msg::Odometry &global, const geometry_msgs::msg::Point &local)\n'}
+[5.346570] (tut9) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.352666] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCylinder::Cylinder()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.352867] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:20:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kscan_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.352984] (tut9) StderrLine: {'line': b'   20 |     \x1b[01;31m\x1b[Kscan_sub_\x1b[m\x1b[K = this->create_subscription<sensor_msgs::msg::LaserScan>(\n'}
+[5.353082] (tut9) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.407538] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:22:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kodom_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.407801] (tut9) StderrLine: {'line': b'   22 |     \x1b[01;31m\x1b[Kodom_sub_\x1b[m\x1b[K = this->create_subscription<nav_msgs::msg::Odometry>(\n'}
+[5.407953] (tut9) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.414987] (-) TimerEvent: {}
+[5.460190] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:24:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmarker_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.460448] (tut9) StderrLine: {'line': b'   24 |     \x1b[01;31m\x1b[Kmarker_pub_\x1b[m\x1b[K = this->create_publisher<visualization_msgs::msg::Marker>(\n'}
+[5.460619] (tut9) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.477079] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Cylinder::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.477498] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:37:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcurrentOdom\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.477672] (tut9) StderrLine: {'line': b'   37 |     \x1b[01;31m\x1b[KcurrentOdom\x1b[m\x1b[K = *odom;\n'}
+[5.477840] (tut9) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.486844] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > > > Cylinder::countSegments(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.487090] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:75:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcurrentOdom\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcurrent\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.487218] (tut9) StderrLine: {'line': b'   75 |                 currentSegment.push_back(localToGlobal(\x1b[01;31m\x1b[KcurrentOdom\x1b[m\x1b[K, current));\n'}
+[5.487343] (tut9) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.487441] (tut9) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[Kcurrent\x1b[m\x1b[K\n'}
+[5.494489] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Cylinder::detectCylinder(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.494861] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:129:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KfirstCent\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.495096] (tut9) StderrLine: {'line': b'  129 |             if (!checkExisting(centre) || \x1b[01;31m\x1b[KfirstCent\x1b[m\x1b[K)\n'}
+[5.495216] (tut9) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.499733] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:132:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcentres\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcentre\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.500017] (tut9) StderrLine: {'line': b'  132 |                 \x1b[01;31m\x1b[Kcentres\x1b[m\x1b[K.push_back(centre);\n'}
+[5.500147] (tut9) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.500276] (tut9) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Kcentre\x1b[m\x1b[K\n'}
+[5.507160] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:135:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmarker_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.507497] (tut9) StderrLine: {'line': b'  135 |                 \x1b[01;31m\x1b[Kmarker_pub_\x1b[m\x1b[K->publish(marker);\n'}
+[5.507624] (tut9) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.515124] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point Cylinder::findCentre(geometry_msgs::msg::Point, geometry_msgs::msg::Point, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.515668] (-) TimerEvent: {}
+[5.515849] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:154:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcurrentOdom\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.516024] (tut9) StderrLine: {'line': b'  154 |     double d2 = sqrt((\x1b[01;31m\x1b[KcurrentOdom\x1b[m\x1b[K.pose.pose.position.x - c1x) * (currentOdom.pose.pose.position.x - c1x) + (currentOdom.pose.pose.position.y - c1y) * (currentOdom.pose.pose.position.y - c1y));\n'}
+[5.516157] (tut9) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.520935] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool Cylinder::checkExisting(geometry_msgs::msg::Point)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.521148] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:177:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcentres\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcentre\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.521246] (tut9) StderrLine: {'line': b'  177 |     for (const auto &existing_centre : \x1b[01;31m\x1b[Kcentres\x1b[m\x1b[K)\n'}
+[5.521360] (tut9) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.521461] (tut9) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[Kcentre\x1b[m\x1b[K\n'}
+[5.526463] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Cylinder::visualizeSegment(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.526709] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:196:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kct_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.526865] (tut9) StderrLine: {'line': b'  196 |     line_marker.id = \x1b[01;31m\x1b[Kct_\x1b[m\x1b[K++;\n'}
+[5.526957] (tut9) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.535720] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:210:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmarker_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.535992] (tut9) StderrLine: {'line': b'  210 |     \x1b[01;31m\x1b[Kmarker_pub_\x1b[m\x1b[K->publish(line_marker);\n'}
+[5.536116] (tut9) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.540833] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::Marker Cylinder::produceMarkerCylinder(geometry_msgs::msg::Point)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.541161] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:219:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kct_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.541304] (tut9) StderrLine: {'line': b'  219 |     marker.id = \x1b[01;31m\x1b[Kct_\x1b[m\x1b[K++;\n'}
+[5.541394] (tut9) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.615866] (-) TimerEvent: {}
+[5.716348] (-) TimerEvent: {}
+[5.816821] (-) TimerEvent: {}
+[5.866530] (tut9) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rhys/ros2_ws/src/tut9/src/imageOverlay.cpp:73:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[5.866822] (tut9) StderrLine: {'line': b'   73 | }\n'}
+[5.866970] (tut9) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.867093] (tut9) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[5.916941] (-) TimerEvent: {}
+[6.017368] (-) TimerEvent: {}
+[6.117901] (-) TimerEvent: {}
+[6.218326] (-) TimerEvent: {}
+[6.318970] (-) TimerEvent: {}
+[6.419366] (-) TimerEvent: {}
+[6.519762] (-) TimerEvent: {}
+[6.620168] (-) TimerEvent: {}
+[6.720536] (-) TimerEvent: {}
+[6.767399] (tut9) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/imageOverlay.dir/build.make:76: CMakeFiles/imageOverlay.dir/src/imageOverlay.cpp.o] Error 1\n'}
+[6.767859] (tut9) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/imageOverlay.dir/all] Error 2\n'}
+[6.767990] (tut9) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[6.820651] (-) TimerEvent: {}
+[6.921006] (-) TimerEvent: {}
+[7.021388] (-) TimerEvent: {}
+[7.121720] (-) TimerEvent: {}
+[7.222033] (-) TimerEvent: {}
+[7.322398] (-) TimerEvent: {}
+[7.422734] (-) TimerEvent: {}
+[7.523112] (-) TimerEvent: {}
+[7.623521] (-) TimerEvent: {}
+[7.723932] (-) TimerEvent: {}
+[7.824355] (-) TimerEvent: {}
+[7.924729] (-) TimerEvent: {}
+[8.025119] (-) TimerEvent: {}
+[8.125497] (-) TimerEvent: {}
+[8.226050] (-) TimerEvent: {}
+[8.326387] (-) TimerEvent: {}
+[8.426703] (-) TimerEvent: {}
+[8.526991] (-) TimerEvent: {}
+[8.627380] (-) TimerEvent: {}
+[8.727752] (-) TimerEvent: {}
+[8.828086] (-) TimerEvent: {}
+[8.928517] (-) TimerEvent: {}
+[8.962003] (tut9) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lastTask.dir/build.make:76: CMakeFiles/lastTask.dir/src/lastTask.cpp.o] Error 1\n'}
+[8.962456] (tut9) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/lastTask.dir/all] Error 2\n'}
+[8.962766] (tut9) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.965318] (tut9) CommandEnded: {'returncode': 2}
+[9.018408] (tut9) JobEnded: {'identifier': 'tut9', 'rc': 2}
+[9.028747] (-) TimerEvent: {}
+[9.029454] (-) EventReactorShutdown: {}

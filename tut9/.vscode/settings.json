@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world/lib/python3.10/site-packages",
+        "/home/rhys/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/rhys/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/rhys/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/rhys/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/rhys/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/rhys/ros2_ws/install/unit01_simulation_gazebo_world/lib/python3.10/site-packages",
+        "/home/rhys/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/rhys/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/rhys/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/rhys/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/rhys/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

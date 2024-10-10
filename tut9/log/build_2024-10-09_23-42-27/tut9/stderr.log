@@ -1,0 +1,53 @@
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In constructor ‘[01m[KCylinder::Cylinder()[m[K’:
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_sub_[m[K’ was not declared in this scope
+   20 |     [01;31m[Kscan_sub_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_sub_[m[K’ was not declared in this scope
+   22 |     [01;31m[Kodom_sub_[m[K = this->create_subscription<nav_msgs::msg::Odometry>(
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+   24 |     [01;31m[Kmarker_pub_[m[K = this->create_publisher<visualization_msgs::msg::Marker>(
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kvoid Cylinder::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[KcurrentOdom[m[K’ was not declared in this scope
+   37 |     [01;31m[KcurrentOdom[m[K = *odom;
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kstd::vector<std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > > > Cylinder::countSegments(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:75:56:[m[K [01;31m[Kerror: [m[K‘[01m[KcurrentOdom[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent[m[K’?
+   75 |                 currentSegment.push_back(localToGlobal([01;31m[KcurrentOdom[m[K, current));
+      |                                                        [01;31m[K^~~~~~~~~~~[m[K
+      |                                                        [32m[Kcurrent[m[K
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kvoid Cylinder::detectCylinder(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&)[m[K’:
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:129:43:[m[K [01;31m[Kerror: [m[K‘[01m[KfirstCent[m[K’ was not declared in this scope
+  129 |             if (!checkExisting(centre) || [01;31m[KfirstCent[m[K)
+      |                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:132:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcentres[m[K’ was not declared in this scope; did you mean ‘[01m[Kcentre[m[K’?
+  132 |                 [01;31m[Kcentres[m[K.push_back(centre);
+      |                 [01;31m[K^~~~~~~[m[K
+      |                 [32m[Kcentre[m[K
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:135:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+  135 |                 [01;31m[Kmarker_pub_[m[K->publish(marker);
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kgeometry_msgs::msg::Point Cylinder::findCentre(geometry_msgs::msg::Point, geometry_msgs::msg::Point, double)[m[K’:
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:154:23:[m[K [01;31m[Kerror: [m[K‘[01m[KcurrentOdom[m[K’ was not declared in this scope
+  154 |     double d2 = sqrt(([01;31m[KcurrentOdom[m[K.pose.pose.position.x - c1x) * (currentOdom.pose.pose.position.x - c1x) + (currentOdom.pose.pose.position.y - c1y) * (currentOdom.pose.pose.position.y - c1y));
+      |                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kbool Cylinder::checkExisting(geometry_msgs::msg::Point)[m[K’:
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:177:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kcentres[m[K’ was not declared in this scope; did you mean ‘[01m[Kcentre[m[K’?
+  177 |     for (const auto &existing_centre : [01;31m[Kcentres[m[K)
+      |                                        [01;31m[K^~~~~~~[m[K
+      |                                        [32m[Kcentre[m[K
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kvoid Cylinder::visualizeSegment(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&)[m[K’:
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:196:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kct_[m[K’ was not declared in this scope
+  196 |     line_marker.id = [01;31m[Kct_[m[K++;
+      |                      [01;31m[K^~~[m[K
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:210:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+  210 |     [01;31m[Kmarker_pub_[m[K->publish(line_marker);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:[m[K In member function ‘[01m[Kvisualization_msgs::msg::Marker Cylinder::produceMarkerCylinder(geometry_msgs::msg::Point)[m[K’:
+[01m[K/home/rhys/ros2_ws/src/tut9/src/lastTask.cpp:219:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kct_[m[K’ was not declared in this scope
+  219 |     marker.id = [01;31m[Kct_[m[K++;
+      |                 [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/lastTask.dir/build.make:76: CMakeFiles/lastTask.dir/src/lastTask.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/lastTask.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
